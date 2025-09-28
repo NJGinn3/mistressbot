@@ -1,0 +1,22 @@
+{
+  "name": "mistressbot",
+  "version": "1.0.0",
+  "description": "Discord bot with OpenAI-powered Mistress persona, SQLite persistence, and daily reminders.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.15.0",
+    "dotenv": "^16.3.1",
+    "openai": "^4.9.0",
+    "sqlite3": "^5.1.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
