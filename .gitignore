@@ -1,3 +1,5 @@
 node_modules/
 .env
 mistressbot.db
+.env
+mistressbot.db
